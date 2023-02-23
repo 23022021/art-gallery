@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+body{
+    background-color: white;
+    font-family: 'Big Shoulders Display', cursive;
+    
+}
+.back-black{
+   display: block;
+   margin-left: -1%;
+   margin-top: -1%;
+   background-color:#151515;
+   width:450px;
+   height:799px;
+}
+.hero-1{
+    display: block;
+    position: absolute;
+    height: 800px;
+    width: 540px;
+    margin-top: -809px;
+    margin-left: 435px;
+}
+h1{
+    width: 514px;
+    height: 176px;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 88px;
+    display: block;
+    position: absolute;
+    margin-top: -500px;
+    margin-left: 145px; 
+    color:white;          /*  ?   */
+}
+.arts{
+    width: 350px;
+    height:160px;
+    font-weight: 300;
+    font-size:22px;
+    line-height: 32px;
+    color:#444444;
+    display: block;
+    position: absolute;
+    margin-top: -625px;
+    margin-left: 900px;
+    font-family: 'Outfit', sans-serif;
+}
+
+.location{
+    background-color: #151515;
+    width: 202px;
+    height:72px;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 24px;
+    letter-spacing:3.64px;
+    color:white;
+    display: block;
+    position: absolute;
+    margin-top:-400px ;
+    margin-left: 900px;
+    opacity: 1;
+    border: 0px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.arrow{
+    width:56px;
+    height: 72px;
+    background-color: #D5966C;
+    display: block;
+    position: absolute;
+    margin-top: -400px;
+    margin-left: 1100px;
+    border:0px;
+    color:white
+    
+}
+.loc-arro:hover .arrow{
+    opacity: 1;
+    background-color: #151515;
+    cursor: pointer;                  /*   ?    */
+}
+.loc-arro:hover .location{
+    opacity: 1;
+    background-color: #D5966C;
+    cursor: pointer;
+}
+ 
+h2{
+    width: 350px;
+    height:120px;
+    font-weight: 900;
+    font-size:60px;
+    line-height: 60px;
+    color:#151515;
+    display: block;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 165px;
+}
+.wander{
+    width: 350px;
+    height: 128px;
+    top: 152px;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 32px;
+    color: #444444;
+    font-family: 'Outfit', sans-serif;
+    display: block;
+    position: absolute;
+    margin-top: 985px;
+    margin-left: 165px;
+}  
+.grid1{
+    display: block;
+    width: 635px;
+    height: 400px;
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 650px;
+}
+.grid2{
+   width: 635px;
+   height: 720px;
+   display: block;
+   position: absolute;
+   margin-top: 560px;
+   margin-left: 165px;
+}
+.grid3{
+    width: 445px;
+    height: 313px;
+    display: block;
+    position: absolute;
+    margin-top: 560px;
+    margin-left:830px;
+}
+.grid0{
+    width: 445px;
+    height: 377px;
+    display: block;
+    position: absolute;
+    margin-left:830px;
+    margin-top: 902px;
+    background-color: #151515;
+}
+h3{
+    width: 350px;
+    height: 120px;
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 900;
+    color: white;
+    position: absolute;
+    margin-top: 965px;
+    margin-left:880px ;
+}
+.welcome{
+    font-family: 'Outfit', sans-serif;
+    width: 350px;
+    height: 96px;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 32px;
+    color: white;
+    position: absolute;
+    margin-top: 1097px;
+    margin-left:880px ;
+}
+.bottom{
+    width: 100%;
+    border-radius: 0px;
+    height: 244px;
+    background-color: #151515;
+    position: absolute;
+    margin-top: 1445px;
+    margin-left:-10px ;
+}
+h4{
+    width: 260px;
+    height: 58px;
+    color: white;
+    font-weight: 900;
+    font-size: 36px;
+    position: absolute;
+    margin-top:1520px ;
+    margin-left: 165px;
+}
+.last-text{
+    font-family: 'Outfit', sans-serif;
+    width: 430px;
+    height: 84px;
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    position: absolute;
+    margin-left: 470px;
+    margin-top: 1520px;
+}
+.icon-fb{
+    width: 20px;
+    height: 20px;
+    display: block;
+    position: absolute;
+    margin: 1520px ;
+    margin-left: 1170px ;
+    
+}
+.icon-fb path:hover{
+    opacity: 1;
+    fill:#D5966C;     
+    cursor: pointer;
+}
+.icon-insta{
+    width: 20px;
+    height: 20px;
+    display: block;
+    position: absolute;
+    margin: 1520px ;
+    margin-left: 1210px ;
+}
+.icon-insta path:hover{
+    fill:#D5966C;
+    cursor: pointer;
+}
+.icon-twit{
+    width: 20px;
+    height: 20px;
+    display: block;
+    position: absolute;
+    margin: 1520px ;
+    margin-left: 1250px ;
+}
+.icon-twit path:hover{
+    fill:#D5966C;
+    cursor: pointer;
+}
